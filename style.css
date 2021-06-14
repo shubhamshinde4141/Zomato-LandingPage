@@ -1,3 +1,62 @@
-.demopara{
-    color: brown;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;  /* To use Box Model in browser*/
 }
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #ebf2ff;
+}
+.nav_bar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+
+}
+.nav_brand{
+    width: 100px;
+}
+.nav_bar_logo
+{
+    width: 100%;
+}
+.nav_item
+{
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+
+
+
+}
+
+.nav_item:hover{
+    border: 2px solid rebeccapurple;
+}
+
+@media(min-width: 768px){
+    .nav_bar{
+        justify-content: space-between;
+        padding: 2px 30px;
+    }
+}
+@media(min-width:1020px) {
+    .nav_brand{
+        width: 150px;
+    }
+    .nav_item{
+        padding: 20px;
+        font-size: 20px;
+    }
+}
+
