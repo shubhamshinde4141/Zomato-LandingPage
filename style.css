@@ -47,7 +47,7 @@ body{
 @media(min-width: 768px){
     .nav_bar{
         justify-content: space-between;
-        padding: 2px 30px;
+        padding: 5px 30px;
     }
 }
 @media(min-width:1020px) {
