@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome To Zomato</title>
 </head>
@@ -16,11 +16,119 @@
             <img src="assets/logo.png" alt="logo" class="nav_bar_logo">
         </div>
         <div class="navbar_nav_items">
-            <button class="nav_item">
+            <button class="nav_item button_primary" >
                 Order Food
             </button>
         </div>
       </nav>
   </header>
+
+<main class="container">
+
+    
+    <!-- Hero section -->
+    <section class="hero_container">
+        <div class="hero_image_container">
+            <img src="assets/hero.jpg" alt="hero image" class="hero_image">
+            <!-- <img src="assets/svg/heroShape.svg" alt="svg_background_pink" class="hero_background_pink"> -->
+            
+
+
+        </div>
+        <div class="hero_description">
+            <h1 class="hero_text">Order Food from favourite restaurants near you</h1>
+            <button class="button_primary">Order Now</button>
+        </div>
+    </section>
+
+
+
+    <!-- Explore Menu -->
+    <section class="explore_menu_container">
+        <h1 class="explore_menu_text">Explore The menu</h1>
+        <div class="explore_menu_gradient_bg">
+
+        </div>
+        <div class="explore_menu_lists">
+            
+            <!-- Burger Card -->
+            <div class="food_card">
+
+                <div class="food_card_image">
+                    <img src="assets/burger.jpg" alt="burger" class="food_image">
+                    <div class="food_card_discription">
+                        <h3 class="food_title">Burger</h3>
+                        <p>Burger King, McDonalds, Burger Place 
+                            <span style="color: red;">+3</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Ice-cream Card -->
+            <div class="food_card" id="icecream-card">
+
+                <div class="food_card_image">
+                    <img src="assets/iceCream.jpg" alt="icecream" class="food_image" >
+                    <div class="food_card_discription">
+                        <h3 class="food_title">Ice cream</h3>
+                        <p>Burger King, McDonalds, Burger Place 
+                            <span style="color: red;">+3</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Pizza Card -->
+            <div class="food_card">
+
+                <div class="food_card_image">
+                    <img src="assets/pizza.jpg" alt="pizza" class="food_image">
+                    <div class="food_card_discription">
+                        <h3 class="food_title">Pizza</h3>
+                        <p>Burger King, McDonalds, Burger Place 
+                            <span style="color: red;">+3</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="explore_more_menu">
+            <button class="button_primary">View More</button>
+        </div>
+        
+    </section>
+
+
+    <!-- Restaurant List -->
+
+    <section class="restaurant_continer">
+        <h1 class="restaurant_text">Order from any restaurant you want</h1>
+        <div class="restaurants_images_container">
+            <div class="restaurants_images_row_one">
+                <div class="restaurants_image_1">
+                    <img src="assets/restaurant1.jpg" alt="restaurant1" class="restaurant_1">
+                </div>
+                <div class="restaurants_image_2">
+                    <img src="assets/restaurant2.jpg" alt="restaurant2" class="restaurant_2">
+                </div>
+            </div>
+            <div class="restaurants_images_row_two">
+                <div class="restaurants_image_3">
+                    <img src="assets/restaurant3.jpg" alt="restaurant3" class="restaurant_3">
+                </div>
+                <div class="restaurants_image_4">
+                    <img src="assets/restaurant4.jpg" alt="restaurant4" class="restaurant_4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</main>
 </body>
 </html>
